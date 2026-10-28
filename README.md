@@ -1302,6 +1302,22 @@ LLM development combines data engineering, neural-network training, evaluation, 
 
 ## Comparison Table
 
+| Metric | ChatGPT | Gemini | Evaluation / Rationale |
+|---|---:|---:|---|
+| **Accuracy** | **4.5 / 5** | 4 / 5 | ChatGPT is more careful and qualification-heavy: it distinguishes verified applications from hypothetical ones and stresses validation. Gemini is broadly accurate but makes stronger, less qualified engineering claims. 
+| **Creativity** | 3.5 / 5 | **4.5 / 5** | Gemini is more inventive and domain-specific, proposing concrete hybrid systems such as VAE-GAN defect synthesis, latent diffusion for topology optimization, and a quantized RAG support agent. ChatGPT is clear but more conventional.  |
+| **Hallucination** | **4.5 / 5** (low) | 3.5 / 5 (moderate) | ChatGPT repeatedly separates evidence from hypotheses and notes uncertainty. Gemini contains more confident extrapolations and potentially overbroad statements, increasing unsupported-claim risk. |
+| **Reasoning** | **4.5 / 5** | 4 / 5 | ChatGPT gives balanced cause-and-effect reasoning across parameters, data, compute, latency, energy, and reliability. Gemini has strong technical reasoning and useful architecture-selection logic, but is sometimes more assertive than fully evidenced.|
+| **Speed** | **4 / 5** | 3.5 / 5 | ChatGPT’s outputs are comparatively more concise and directly responsive. Gemini produces denser, longer reports with more tables and technical detail, likely requiring more generation and review time. |
+
+## Overall Assessment
+
+| Model | Weighted view | Best suited for |
+|---|---|---|
+| **ChatGPT** | **Stronger overall for reliable technical reporting** | Explanatory reports, safety-sensitive engineering content, balanced trade-off analysis, and careful claim qualification.  |
+| **Gemini** | **Stronger for ideation and detailed technical synthesis** | Brainstorming engineering solutions, architecture comparisons, system-design proposals, and dense structured reports. |
+
+
 ## Result
 Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs) has been completed successfully.
 
